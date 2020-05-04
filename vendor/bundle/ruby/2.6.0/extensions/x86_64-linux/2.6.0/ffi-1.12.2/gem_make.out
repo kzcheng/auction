@@ -1,0 +1,53 @@
+current directory: /vagrant/w10/auctions/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+/home/vagrant/.rvm/rubies/ruby-2.6.0/bin/ruby -I /home/vagrant/.rvm/rubies/ruby-2.6.0/lib/ruby/2.6.0 -r ./siteconf20200504-27236-1ma2nrk.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_closure_alloc()... yes
+checking for shlwapi.h... no
+checking for rb_thread_call_without_gvl()... yes
+checking for ruby_native_thread_p()... yes
+checking for ruby_thread_has_gvl_p()... yes
+checking for ffi_prep_cif_var()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /vagrant/w10/auctions/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 1098 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/w10/auctions/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 1098 s in the future
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+compiling ClosurePool.c
+compiling DynamicLibrary.c
+compiling Function.c
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/w10/auctions/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+make "DESTDIR=" install
+make: Warning: File 'Makefile' has modification time 1093 s in the future
+/usr/bin/install -m 0755 ffi_c.so ./.gem.20200504-27236-1t2pr79
+make: warning:  Clock skew detected.  Your build may be incomplete.
